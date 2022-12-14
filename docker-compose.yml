@@ -1,0 +1,8 @@
+﻿version: "2"
+services:
+  testenvvar-api:
+    build: .
+    ports:
+      - "5001:80"
+    environment:
+      AppName: "name in yaml"
